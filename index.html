@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1a0f7a57bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <img src="images/logo.jpeg" class="logo" />
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#serices">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="wrapper">
+      <div class="header-text">
+        <p>Web dev and App Dev</p>
+        <h1>Hi, I`m <span>Boscoh </span><br />from juja</h1>
+      </div>
+      <img src="images/2.png" />
+    </div>
+
+    <div id="about">
+      <img src="images/3.png" />
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <div class="about-col-2">
+              <h1 class="sub-tittle">About Me</h1>
+              <p>
+                I`m, a proficient developer with an adept hand in both website
+                and app development. Armed with a robust understanding of
+                programming languages like HTML, CSS, JavaScript, and frameworks
+                such as React,I navigates the complexities of front-end
+                development effortlessly. On the backend,I expertise extends to
+                languages like Python, php, or Node.js, allowing to build
+                scalable and efficient web applications. My knack for
+                problem-solving and innovation ensures that every project I
+                undertakes not only meets but exceeds expectations, leaving a
+                lasting impression in the ever-evolving landscape of digital
+                technology.
+              </p>
+              <div class="tab-tittles">
+                <p
+                  class="tab-links active-link"
+                  onclick="opentab('skills', event)"
+                >
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience', event)">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education', event)">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Web Development</span><br />Web app Development</li>
+                  <li><span>UI/UX</span><br />Web/app interface</li>
+                  <li>
+                    <span>App Development</span><br />Building android apps
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2020 - 2022</span><br />Web app Development</li>
+                  <li><span>2019 - 2020</span><br />Web/app interface</li>
+                  <li>
+                    <span>2022 - current</span><br />Building android apps
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2019</span><br />Web app Development</li>
+                  <li><span>2021</span><br />Web/app interface</li>
+                  <li><span>2023</span><br />Building android apps</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------service--------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p2
+              >I offer tailored solutions to meet the unique needs and
+              preferences of my clients.</p2
+            >
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p2
+              >A user-centric approach, placing the needs, preferences, and
+              behaviors of the target audience at the forefront of the design
+              process.
+            </p2>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Dev</h2>
+            <p2
+              >I provide ongoing support and maintenance to ensure the app
+              remains functional, secure, and up-to-date after launch.
+            </p2>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------portfolio-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work.jpg" />
+            <div class="layer">
+              <h3>Social Media APP</h3>
+              <p>
+                Social media apps often include messaging features that allow
+                users to communicate privately or in groups. Users can send
+                direct messages, chat with friends, participate in group chats,
+                or join public conversations on trending topics.
+              </p>
+              <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work1.jpg" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                Music apps use algorithms and machine learning to provide
+                personalized recommendations based on user listening history,
+                preferences, and behavior.
+              </p>
+              <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work3.png" />
+            <div class="layer">
+              <h3>E-commerce website</h3>
+              <p>
+                E-commerce websites include a shopping cart feature that allows
+                customers to add items to their cart while browsing the website.
+              </p>
+              <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!---------contact-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-tittle">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>johnboscokaitha610@gmal.com
+            </p>
+            <p><i class="fa-solid fa-phone-volume"></i>0705398972</p>
+            <div class="Social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Johnbosco Kaitha CV.docx" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your messages"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Boscoh<i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname, event) {
+        for (var tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <form name="submit-to-google-sheet"></form>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwXnkdlpMuW1u7aCH0Va7SwlLvD3VMUhTTt-VctKJeNXNPJZ2eSV9-H9c-LtjjZCAlNSQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
